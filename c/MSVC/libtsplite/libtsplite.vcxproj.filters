@@ -1,0 +1,628 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="AF">
+      <UniqueIdentifier>{3b4ecc63-070c-44c5-8e6f-af4adc89c219}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AF\header">
+      <UniqueIdentifier>{55c77e50-389f-42b7-aeab-2f82f959f249}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AF\dataio">
+      <UniqueIdentifier>{2428c44d-7886-4b08-87cd-8ac926a7d4eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FI">
+      <UniqueIdentifier>{fff94181-c586-422e-ad1c-ecde15504fbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FI\FI-nucleus">
+      <UniqueIdentifier>{e28968da-f7d5-42dc-b571-f66e77a7876c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FL">
+      <UniqueIdentifier>{b8d3e2bf-76af-47b9-9a7f-d05f9b2ff287}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FL\FL-nucleus">
+      <UniqueIdentifier>{e9dce328-92df-4426-b588-98d61758e12d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FN">
+      <UniqueIdentifier>{73ae0ec4-3522-4c83-a5fd-beca19745d14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MA">
+      <UniqueIdentifier>{01f67c17-8e4b-41b8-b3d6-27843c24705a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MS">
+      <UniqueIdentifier>{ac296107-d882-4f29-b010-8988dfeb95db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SP">
+      <UniqueIdentifier>{ddb39189-9b3b-46bd-aa3f-6a32666a524b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SP\nucleus">
+      <UniqueIdentifier>{7183cafe-44a7-40c6-b555-ec702001382d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ST">
+      <UniqueIdentifier>{41ea5cc3-2e5c-4c45-bebf-094eacc9c9f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ST\ST-nucleus">
+      <UniqueIdentifier>{d243f05a-0a8f-4d16-943c-ad31dc1cec01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UT">
+      <UniqueIdentifier>{c052ebb9-d19e-4546-9e11-e2277b68966c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UT\UT-nucleus">
+      <UniqueIdentifier>{99986ed4-93a4-4c4c-b825-ca33182d84e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VR">
+      <UniqueIdentifier>{f803435c-89d8-42da-982e-dcfe304b1d01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VR\VR-nucleus">
+      <UniqueIdentifier>{3d09b014-492b-48dc-9b10-76d765a99ee3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\libtsp\AF\AFclose.c">
+      <Filter>AF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\AFdReadData.c">
+      <Filter>AF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\AFdWriteData.c">
+      <Filter>AF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\AFfReadData.c">
+      <Filter>AF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\AFfWriteData.c">
+      <Filter>AF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\AFopenRead.c">
+      <Filter>AF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\AFopenWrite.c">
+      <Filter>AF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\AFopnRead.c">
+      <Filter>AF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\AFopnWrite.c">
+      <Filter>AF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\AFreadData.c">
+      <Filter>AF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\AFsetFileType.c">
+      <Filter>AF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\AFsetInfo.c">
+      <Filter>AF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\AFsetNHpar.c">
+      <Filter>AF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\AFsetSpeaker.c">
+      <Filter>AF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\AFwriteData.c">
+      <Filter>AF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\header\AFdecSpeaker.c">
+      <Filter>AF\header</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\header\AFfindType.c">
+      <Filter>AF\header</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\header\AFgetInfoRec.c">
+      <Filter>AF\header</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\header\AFoptions.c">
+      <Filter>AF\header</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\header\AFprAFpar.c">
+      <Filter>AF\header</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\header\AFpreSetWPar.c">
+      <Filter>AF\header</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\header\AFrdAIhead.c">
+      <Filter>AF\header</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\header\AFrdAUhead.c">
+      <Filter>AF\header</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\header\AFrdBLhead.c">
+      <Filter>AF\header</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\header\AFrdEShead.c">
+      <Filter>AF\header</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\header\AFrdINhead.c">
+      <Filter>AF\header</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\header\AFrdNShead.c">
+      <Filter>AF\header</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\header\AFrdSFhead.c">
+      <Filter>AF\header</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\header\AFrdSPhead.c">
+      <Filter>AF\header</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\header\AFrdSWhead.c">
+      <Filter>AF\header</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\header\AFrdTAhead.c">
+      <Filter>AF\header</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\header\AFrdTextAFsp.c">
+      <Filter>AF\header</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\header\AFrdWVhead.c">
+      <Filter>AF\header</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\header\AFreadHead.c">
+      <Filter>AF\header</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\header\AFsetNHread.c">
+      <Filter>AF\header</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\header\AFsetNHwrite.c">
+      <Filter>AF\header</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\header\AFsetRead.c">
+      <Filter>AF\header</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\header\AFsetWrite.c">
+      <Filter>AF\header</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\header\AFupdAIhead.c">
+      <Filter>AF\header</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\header\AFupdAUhead.c">
+      <Filter>AF\header</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\header\AFupdHead.c">
+      <Filter>AF\header</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\header\AFupdWVhead.c">
+      <Filter>AF\header</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\header\AFwrAIhead.c">
+      <Filter>AF\header</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\header\AFwrAUhead.c">
+      <Filter>AF\header</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\header\AFwriteHead.c">
+      <Filter>AF\header</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\header\AFwrWVhead.c">
+      <Filter>AF\header</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\dataio\AFdRdAlaw.c">
+      <Filter>AF\dataio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\dataio\AFdRdFx.c">
+      <Filter>AF\dataio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\dataio\AFdRdIx.c">
+      <Filter>AF\dataio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\dataio\AFdRdMulaw.c">
+      <Filter>AF\dataio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\dataio\AFdRdTA.c">
+      <Filter>AF\dataio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\dataio\AFdRdU1.c">
+      <Filter>AF\dataio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\dataio\AFdWrAlaw.c">
+      <Filter>AF\dataio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\dataio\AFdWrFx.c">
+      <Filter>AF\dataio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\dataio\AFdWrIx.c">
+      <Filter>AF\dataio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\dataio\AFdWrMulaw.c">
+      <Filter>AF\dataio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\dataio\AFdWrTA.c">
+      <Filter>AF\dataio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\dataio\AFdWrU1.c">
+      <Filter>AF\dataio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\dataio\AFfRdAlaw.c">
+      <Filter>AF\dataio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\dataio\AFfRdFx.c">
+      <Filter>AF\dataio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\dataio\AFfRdIx.c">
+      <Filter>AF\dataio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\dataio\AFfRdMulaw.c">
+      <Filter>AF\dataio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\dataio\AFfRdTA.c">
+      <Filter>AF\dataio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\dataio\AFfRdU1.c">
+      <Filter>AF\dataio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\dataio\AFfWrAlaw.c">
+      <Filter>AF\dataio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\dataio\AFfWrFx.c">
+      <Filter>AF\dataio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\dataio\AFfWrIx.c">
+      <Filter>AF\dataio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\dataio\AFfWrMulaw.c">
+      <Filter>AF\dataio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\dataio\AFfWrTA.c">
+      <Filter>AF\dataio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\dataio\AFfWrU1.c">
+      <Filter>AF\dataio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\dataio\AFgetLine.c">
+      <Filter>AF\dataio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\dataio\AFposition.c">
+      <Filter>AF\dataio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\dataio\AFseek.c">
+      <Filter>AF\dataio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\AF\dataio\AFtell.c">
+      <Filter>AF\dataio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\FI\FIdBiquad.c">
+      <Filter>FI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\FI\FIdConvol.c">
+      <Filter>FI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\FI\FIdConvSI.c">
+      <Filter>FI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\FI\FIdFiltAP.c">
+      <Filter>FI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\FI\FIdFiltIIR.c">
+      <Filter>FI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\FI\FIdReadFilt.c">
+      <Filter>FI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\FI\FIdWinHamm.c">
+      <Filter>FI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\FI\FIfConvol.c">
+      <Filter>FI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\FI\FIfDeem.c">
+      <Filter>FI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\FI\FIfFiltAP.c">
+      <Filter>FI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\FI\FIfPreem.c">
+      <Filter>FI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\FI\FIfWinHamm.c">
+      <Filter>FI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\FI\nucleus\FIxKaiser.c">
+      <Filter>FI\FI-nucleus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\FL\FLbackup.c">
+      <Filter>FL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\FL\FLbaseName.c">
+      <Filter>FL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\FL\FLdefName.c">
+      <Filter>FL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\FL\FLdirName.c">
+      <Filter>FL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\FL\FLexpHome.c">
+      <Filter>FL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\FL\FLextName.c">
+      <Filter>FL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\FL\FLfileDate.c">
+      <Filter>FL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\FL\FLfullName.c">
+      <Filter>FL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\FL\FLgetLine.c">
+      <Filter>FL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\FL\FLgetRec.c">
+      <Filter>FL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\FL\FLhomeDir.c">
+      <Filter>FL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\FL\FLpathList.c">
+      <Filter>FL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\FL\FLpreName.c">
+      <Filter>FL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\FL\nucleus\FLdReadTF.c">
+      <Filter>FL\FL-nucleus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\FL\nucleus\FLexist.c">
+      <Filter>FL\FL-nucleus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\FL\nucleus\FLfileSize.c">
+      <Filter>FL\FL-nucleus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\FL\nucleus\FLfReadTF.c">
+      <Filter>FL\FL-nucleus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\FL\nucleus\FLjoinNames.c">
+      <Filter>FL\FL-nucleus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\FL\nucleus\FLseekable.c">
+      <Filter>FL\FL-nucleus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\FL\nucleus\FLterm.c">
+      <Filter>FL\FL-nucleus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\FN\FNbessI0.c">
+      <Filter>FN</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\FN\FNgcd.c">
+      <Filter>FN</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\FN\FNsinc.c">
+      <Filter>FN</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\MA\MAdAllocMat.c">
+      <Filter>MA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\MA\MAdFreeMat.c">
+      <Filter>MA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\MS\MSdNint.c">
+      <Filter>MS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\MS\MSfGaussRand.c">
+      <Filter>MS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\MS\MSfUnifRand.c">
+      <Filter>MS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\MS\MSiCeil.c">
+      <Filter>MS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\MS\MSiFloor.c">
+      <Filter>MS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\MS\MSratio.c">
+      <Filter>MS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\SP\SPautoc.c">
+      <Filter>SP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\SP\SPcorXpc.c">
+      <Filter>SP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\SP\SPdCFFT.c">
+      <Filter>SP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\SP\SPdQuantL.c">
+      <Filter>SP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\SP\SPdRFFT.c">
+      <Filter>SP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\SP\SPpcBWexp.c">
+      <Filter>SP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\SP\SPpcXec.c">
+      <Filter>SP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\SP\nucleus\SPdPreFFT.c">
+      <Filter>SP\nucleus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\SP\nucleus\SPdTrMat2.c">
+      <Filter>SP\nucleus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\ST\STcatMax.c">
+      <Filter>ST</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\ST\STcopyMax.c">
+      <Filter>ST</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\ST\STcopyNMax.c">
+      <Filter>ST</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\ST\STdec1double.c">
+      <Filter>ST</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\ST\STdec1float.c">
+      <Filter>ST</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\ST\STdec1int.c">
+      <Filter>ST</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\ST\STdec1long.c">
+      <Filter>ST</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\ST\STdecDfrac.c">
+      <Filter>ST</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\ST\STdecIfrac.c">
+      <Filter>ST</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\ST\STdecLrange.c">
+      <Filter>ST</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\ST\STdecNdouble.c">
+      <Filter>ST</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\ST\STdecNfloat.c">
+      <Filter>ST</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\ST\STfindToken.c">
+      <Filter>ST</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\ST\STkeyMatch.c">
+      <Filter>ST</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\ST\STkeyXpar.c">
+      <Filter>ST</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\ST\STstrLC.c">
+      <Filter>ST</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\ST\STtrim.c">
+      <Filter>ST</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\ST\STunQuote.c">
+      <Filter>ST</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\ST\nucleus\STdec1val.c">
+      <Filter>ST\ST-nucleus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\ST\nucleus\STdecNval.c">
+      <Filter>ST\ST-nucleus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\ST\nucleus\STdecPair.c">
+      <Filter>ST\ST-nucleus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\ST\nucleus\STstrDots.c">
+      <Filter>ST\ST-nucleus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\ST\nucleus\STstrstrNM.c">
+      <Filter>ST\ST-nucleus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\ST\nucleus\STtrimIws.c">
+      <Filter>ST\ST-nucleus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\ST\nucleus\STtrimNMax.c">
+      <Filter>ST\ST-nucleus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\UT\UTdate.c">
+      <Filter>UT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\UT\UTerror.c">
+      <Filter>UT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\UT\UTfree.c">
+      <Filter>UT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\UT\UTgetOption.c">
+      <Filter>UT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\UT\UThalt.c">
+      <Filter>UT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\UT\UTmalloc.c">
+      <Filter>UT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\UT\UTrealloc.c">
+      <Filter>UT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\UT\UTsetProg.c">
+      <Filter>UT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\UT\UTsysMsg.c">
+      <Filter>UT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\UT\UTwarn.c">
+      <Filter>UT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\UT\nucleus\UTbyteCode.c">
+      <Filter>UT\UT-nucleus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\UT\nucleus\UTbyteOrder.c">
+      <Filter>UT\UT-nucleus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\UT\nucleus\UTcheckIEEE.c">
+      <Filter>UT\UT-nucleus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\UT\nucleus\UTctime.c">
+      <Filter>UT\UT-nucleus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\UT\nucleus\UTdecOption.c">
+      <Filter>UT\UT-nucleus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\UT\nucleus\UTdIEEE80.c">
+      <Filter>UT\UT-nucleus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\UT\nucleus\UTeIEEE80.c">
+      <Filter>UT\UT-nucleus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\UT\nucleus\UTgetUser.c">
+      <Filter>UT\UT-nucleus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\UT\nucleus\UTswapCode.c">
+      <Filter>UT\UT-nucleus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\VR\VRdAdd.c">
+      <Filter>VR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\VR\VRdCopy.c">
+      <Filter>VR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\VR\VRdCorSYm.c">
+      <Filter>VR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\VR\VRdDotProd.c">
+      <Filter>VR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\VR\VRdLinInc.c">
+      <Filter>VR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\VR\VRdMult.c">
+      <Filter>VR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\VR\VRdRFFTMSq.c">
+      <Filter>VR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\VR\VRdScale.c">
+      <Filter>VR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\VR\VRdSet.c">
+      <Filter>VR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\VR\VRdShift.c">
+      <Filter>VR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\VR\VRdZero.c">
+      <Filter>VR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\VR\VRfCorSym.c">
+      <Filter>VR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\VR\VRfDotProd.c">
+      <Filter>VR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\VR\VRfMult.c">
+      <Filter>VR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\VR\VRfShift.c">
+      <Filter>VR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\VR\VRfZero.c">
+      <Filter>VR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\VR\VRiZero.c">
+      <Filter>VR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtsp\VR\nucleus\VRswapBytes.c">
+      <Filter>VR\VR-nucleus</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

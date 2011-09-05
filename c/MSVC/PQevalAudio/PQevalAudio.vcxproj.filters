@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="CB">
+      <UniqueIdentifier>{93dc334c-b135-4418-80c4-cda58bdecfbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MOV">
+      <UniqueIdentifier>{2e593bdf-fab2-46ac-8dd0-47569a527bd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{2c247187-78dc-499c-8e4b-7f5ab113adb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Patt">
+      <UniqueIdentifier>{3d82fe10-5cfd-4ee6-ac85-4e7bf48a0171}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\audio\PQevalAudio\CB\PQCB.h">
+      <Filter>CB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\audio\PQevalAudio\PQevalAudio.h" />
+    <ClInclude Include="..\..\audio\PQevalAudio\PQnNet.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\audio\PQevalAudio\CB\PQgroupCB.c">
+      <Filter>CB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\audio\PQevalAudio\CB\PQspreadCB.c">
+      <Filter>CB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\audio\PQevalAudio\CB\PQtimeSpread.c">
+      <Filter>CB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\audio\PQevalAudio\MOV\PQframeMOV.c">
+      <Filter>MOV</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\audio\PQevalAudio\MOV\PQloudTest.c">
+      <Filter>MOV</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\audio\PQevalAudio\MOV\PQmovBW.c">
+      <Filter>MOV</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\audio\PQevalAudio\MOV\PQmovEHS.c">
+      <Filter>MOV</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\audio\PQevalAudio\MOV\PQmovModDiffB.c">
+      <Filter>MOV</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\audio\PQevalAudio\MOV\PQmovNLoudB.c">
+      <Filter>MOV</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\audio\PQevalAudio\MOV\PQmovNMRB.c">
+      <Filter>MOV</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\audio\PQevalAudio\MOV\PQmovPD.c">
+      <Filter>MOV</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\audio\PQevalAudio\MOV\PQprtMOV.c">
+      <Filter>MOV</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\audio\PQevalAudio\MOV\PQprtMOVCi.c">
+      <Filter>MOV</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\audio\PQevalAudio\Misc\PQdataBoundary.c">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\audio\PQevalAudio\Misc\PQgenTables.c">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\audio\PQevalAudio\Misc\PQinitFmem.c">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\audio\PQevalAudio\Misc\PQoptions.c">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\audio\PQevalAudio\Misc\PQreadChan.c">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\audio\PQevalAudio\Misc\PQtableFn.c">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\audio\PQevalAudio\Patt\PQadapt.c">
+      <Filter>Patt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\audio\PQevalAudio\Patt\PQloud.c">
+      <Filter>Patt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\audio\PQevalAudio\Patt\PQmodPatt.c">
+      <Filter>Patt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\audio\PQevalAudio\PQeval.c" />
+    <ClCompile Include="..\..\audio\PQevalAudio\PQevalAudio.c" />
+    <ClCompile Include="..\..\audio\PQevalAudio\PQnNet.c" />
+  </ItemGroup>
+</Project>
