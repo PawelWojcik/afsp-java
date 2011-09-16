@@ -50,10 +50,8 @@ public class FI {
 	  int m;
 	  int j;
 	  double sum;
-
 	  if (h.get(0) == 0.0F)
 	    UThalt ("FIfFiltAP: %s", FIM_NonCausal);
-
 	  /* Loop over output points */
 	  List<Float> yp = y.subList(Ncof-1, y.size());
 	  for (m = 0; m < Nout; ++m) {
@@ -62,7 +60,45 @@ public class FI {
 	      sum = sum - h.get(j) * yp.get(m-j);
 	    yp.set(m, (float) sum / h.get(0));
 	  }
-
 	  return;
+	}
+	
+	public static void FIfDeem(double a, Reference<Float> Fmem,
+			ArrayList<Float> x, ArrayList<Float> y, int Nout) {
+		int i;
+		float c, temp;
+
+		/* Loop over the samples */
+		c = (float) a;
+		temp = Fmem.get();
+		for (i = 0; i < Nout; ++i) {
+			temp = x.get(i) + c * temp;
+			y.set(i, temp);
+		}
+
+		/* New filter memory value */
+		Fmem.set(temp);
+	}
+	
+	public static void FIfConvol(ArrayList<Float> x, ArrayList<Float> y,
+			int Nout, ArrayList<Float> h, int Ncof) {
+		int m;
+		int j;
+		double sum;
+		List<Float> xp;
+
+		/* Loop over output points */
+		xp = x.subList(Ncof - 1, x.size());
+		for (m = 0; m < Nout; ++m) {
+
+			/* Convolution */
+			sum = 0.0;
+			for (j = 0; j < Ncof; ++j) {
+				sum += h.get(j) * xp.get(m - j);
+			}
+			y.set(m, (float) sum);
+		}
+
+		return;
 	}
 }
