@@ -129,27 +129,24 @@ public class FI {
 
 	public static int FIdReadFilt(String Fname, int MaxNcof,
 			ArrayList<Double> h, Reference<Integer> Ncof, File fpinfo) {
-		String FItab[] = {
-			  "!FIR**",	/* FIR filter, direct form */
-			  "!IIR**",	/* IIR filter, cascade of biquad sections */
-			  "!ALL**",	/* All-pole filter, direct form */
-			  "!WIN**",	/* Window coefficients, direct form */
-			  "!CAS**",	/* Cascade analog biquad sections */
-			  null
-			};
+		String FItab[] = { "!FIR**", /* FIR filter, direct form */
+		"!IIR**", /* IIR filter, cascade of biquad sections */
+		"!ALL**", /* All-pole filter, direct form */
+		"!WIN**", /* Window coefficients, direct form */
+		"!CAS**", /* Cascade analog biquad sections */
+		null };
 
-			/* String descriptions of the filter types */
-			String FItype[] = {
-			  FImsg.FI_UNDEF_desc,
-			  FImsg.FI_FIR_desc,
-			  FImsg.FI_IIR_desc,
-			  FImsg.FI_ALL_desc,
-			  FImsg.FI_WIN_desc,
-			  FImsg.FI_CAS_desc
-			};
-			String COMMENT_CHAR = "!";
-			
-			
+		/* String descriptions of the filter types */
+		String FItype[] = { FImsg.FI_UNDEF_desc, FImsg.FI_FIR_desc,
+				FImsg.FI_IIR_desc, FImsg.FI_ALL_desc, FImsg.FI_WIN_desc,
+				FImsg.FI_CAS_desc };
+		String COMMENT_CHAR = "!";
+		File fp;
+		String line;
+		int N, FiltType, Sym;
+		String FullName;
+		
+
 		return 0;
 	}
 }
