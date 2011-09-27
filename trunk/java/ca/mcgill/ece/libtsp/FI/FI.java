@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import ca.mcgill.ece.audio.misc.Reference;
+import ca.mcgill.ece.libtsp.VR.VR;
 
 public class FI {
 	public static void FIfWinHamm(ArrayList<Float> win, Integer N, Double a) {
@@ -121,10 +122,9 @@ public class FI {
 
 		return;
 	}
-	
+
 	private static int CHECKSYM(ArrayList<Double> x, int N) {
-		//return (int) (1.00001 * VRdCorSym(x,N));
-		return 0;
+		return (int) (1.00001 * VR.VRdCorSym(x, N));
 	}
 
 	public static int FIdReadFilt(String Fname, int MaxNcof,
@@ -145,7 +145,6 @@ public class FI {
 		String line;
 		int N, FiltType, Sym;
 		String FullName;
-		
 
 		return 0;
 	}
