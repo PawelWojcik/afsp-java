@@ -4,7 +4,9 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
+import ca.mcgill.ece.audio.libtsp.FL.FL;
 import ca.mcgill.ece.audio.misc.Reference;
+import ca.mcgill.ece.libtsp.ST.ST;
 import ca.mcgill.ece.libtsp.VR.VR;
 
 public class FI {
@@ -145,6 +147,14 @@ public class FI {
 		String line;
 		int N, FiltType, Sym;
 		String FullName;
+		
+		fp = new File(Fname);
+		FiltType = FIpar.FI_UNDEF;
+		line = FL.FLgetLine(fp);
+		if(line != null) {
+			FiltType = ST.STKeyMatch(line, FItab);
+		}
+		
 
 		return 0;
 	}
