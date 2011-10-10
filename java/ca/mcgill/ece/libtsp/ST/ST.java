@@ -6,9 +6,28 @@ public class ST {
 		int STAR = 1;
 		int NOMATCH	= -1;
 		
+		int state;
+		int kt;
+		int j;
 		if(str == null) return NOMATCH;
-		for(String s : keyTable) {
-			
+		for(int i = 0; i < keyTable.length; i++) {
+			state = NOSTAR;
+			String s = keyTable[i];
+			for(kt = 0, j = 0; kt < s.length() && j < str.length(); ++kt) {
+				if(s.charAt(kt) == '*') {
+					if(state == NOSTAR) {
+						state = STAR;
+					} else {
+						return i;
+					}
+				} else if(s.charAt(kt) != str.charAt(j)){
+					break;
+				} else {
+					++j;
+				}
+			}
+			if (j == str.length() && (kt == s.length() || state == STAR || s.charAt(kt) == '*'))
+				return i;
 		}
 		return NOMATCH;
 	}
